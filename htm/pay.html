@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name=viewport content=width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	<body>
+		<div class="con">
+			<div class="row">
+				<label>经营所在地：<i>*</i></label>
+				<div class="row-con">山东-济南</div>
+			</div>
+			<div class="row">
+				<label>所属分公司：</label>
+				<div class="row-con">山东分公司-济南分公司</div>
+			</div>
+			<div class="row">
+				<label>营业执照名称：<i>*</i></label>
+				<div class="row-con">
+					<input class="row-text" type="text" placeholder="请输入营业执照名称" />
+				</div>
+			</div>
+			<div class="row">
+				<label>联系人类型：<i>*</i></label>
+				<div class="row-con">
+					<select class="row-sel" name="" id="">
+						<option value="">身份证</option>
+						<option value="">驾驶证</option>
+						<option value="">学生证</option>
+					</select>
+				</div>
+			</div>
+		</div>
+		<div class="con">
+			<div class="row">
+				<span class="con-t">请上传营业执照及身份证</span>
+			</div>
+			<div class="imgbox">
+				<div class="img-item">
+					<img src="images/1.jpeg" alt="" />
+				</div>
+				
+				<div class="img-item">
+					<img src="images/2.jpeg" alt="" />
+				</div>
+				<div class="img-item">
+					<img src="images/3.jpg" alt="" />
+				</div>
+				
+				<div class="img-item">
+					<img src="images/4.jpg" alt="" />
+				</div>
+			</div>
+		</div>
+		<div class="con">
+			<div class="row">
+				<label>经营所在地：<i>*</i></label>
+				<div class="row-con">山东-济南</div>
+			</div>
+			<div class="row">
+				<label>所属分公司：</label>
+				<div class="row-con">山东分公司-济南分公司</div>
+			</div>
+			<div class="row">
+				<label>营业执照名称：<i>*</i></label>
+				<div class="row-con">
+					<input class="row-text" type="text" placeholder="请输入营业执照名称" />
+				</div>
+			</div>
+			<div class="row">
+				<label>联系人类型：<i>*</i></label>
+				<div class="row-con">
+					<select class="row-sel" name="" id="">
+						<option value="">身份证</option>
+						<option value="">驾驶证</option>
+						<option value="">学生证</option>
+					</select>
+				</div>
+			</div>
+		</div>
+		<div class="row row2">
+			<input class="row-btn" type="button" value="确 认" />
+		</div>	
+	</body>
+	<style type="text/css">
+	*{ margin: 0; padding: 0; font-size: 15px; color: #333;}
+	body{ background: #f0f0f0;}
+	.con{ width: 100%; background: #fff; margin-bottom: 15px;}
+	.row{ width: 100%; height: 51px; padding: 0 12px; box-sizing: border-box; line-height: 50px;
+	 border-bottom: 1px solid #e9e9e9; display: flex;}
+	.row label{ width: 10em;}
+	.row label i{ color: #f00; font-style: normal;}
+	.row-con{ flex: 1; text-overflow: ellipsis; white-space: nowrap; overflow: hidden;}
+	.row-text{ width: 100%; height: 50px; border: none; outline: none; background: none;}
+	.row-sel{ width: 100%; height: 50px; -webkit-appearance: none; border: none; background: url(images/arrow.png) no-repeat 95% center; background-size: 12px auto; outline: none;}
+	.con-t{ color: #f00; font-size: 16px;}
+	.imgbox{ width: 100%; padding: 0 12px 8px; box-sizing: border-box; display: inline-block; }
+	.img-item{
+		width: 46%;
+		height: 43vw;
+		float: left;
+		border: 1px solid #e9e9e9;
+		overflow: hidden;
+		display: flex;
+		text-align: center;
+		align-items: center;
+		box-sizing: border-box;
+		margin: 12px 2% 0;
+		overflow: hidden;
+	}
+	.imgbox img{
+		max-width: 100%;
+		max-height: 100%;
+		width: auto;
+		height: auto;
+		display: block;
+		margin: 0 auto;
+	}
+	.row2{ border: none; margin: 25px 0;}
+	.row-btn{
+		width: 100%;
+		height: 50px;
+		background: #00c738;
+		color: #fff;
+		border-radius: 5px;
+		border: none;
+		-webkit-appearance: none;
+		font-size: 18px;
+	}
+	</style>
+</html>
